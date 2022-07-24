@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.red {
+  color: red;
+}
+
+.big-text {
+  @apply red;
+  @apply text-3xl;
+  @apply font-bold;
+  @apply underline;
+}
